@@ -113,4 +113,4 @@ Distribuído sob a licença MIT.
 
 ---
 
-Feito com 💡 por [João Lucas e João Thiago](https://github.com/seu-usuario)
+Feito com 💡 por [João Lucas e João Tiago](https://github.com/seu-usuario)
