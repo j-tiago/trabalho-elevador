@@ -1,4 +1,3 @@
-
 # 🛗 Simulador de Elevadores 
 
 Este projeto em Java simula um sistema de elevadores em funcionamento dentro de um edifício, com foco em modelagem orientada a objetos e uso de estruturas de dados dinâmicas. A arquitetura do projeto promove o entendimento de conceitos fundamentais como herança, polimorfismo, encapsulamento e serialização.
@@ -44,30 +43,37 @@ Desenvolver uma aplicação modular que:
 | `PainelElevador`, `PainelInternoElevador`, `PainelConfig` | Interfaces gráficas (em Swing) para interagir com a simulação. |
 | `Lista`, `Fila`        | Estruturas de dados próprias para organizar elementos. |
 | `Main`                 | Classe principal para inicialização e execução da simulação. |
+| `SimuladorGUI`         | Interface gráfica principal para a simulação. |
+| `TelaConfiguracoes`    | Tela para configurações da simulação. |
+| `TelaEstatisticas`     | Tela para exibir estatísticas da simulação. |
+| `Ponteiro`             | Gerencia indicadores ou referências na simulação. |
 
 ---
 
 ## ▶️ Como Executar
 
 ### Pré-requisitos:
-- Java JDK 8 ou superior
+- Java JDK 23
 - IDE como IntelliJ, Eclipse ou terminal com suporte à compilação Java
 
 ### Passos:
-
-```bash
-# Clone o repositório
-git clone https://github.com/seu-usuario/simulador-elevadores.git
-
-# Acesse o diretório
-cd simulador-elevadores
-
-# Compile os arquivos
-javac src/*.java
-
-# Execute o programa
-java Main
-```
+#### Para Download e Execução:
+- Baixe o repositório com:  
+  ```bash
+  git clone https://github.com/seu-usuario/simulador-elevadores.git
+  ```
+- Acesse o diretório:  
+  ```bash
+  cd simulador-elevadores
+  ```
+- Compile os arquivos:  
+  ```bash
+  javac src/*.java
+  ```
+- Execute o programa:  
+  ```bash
+  java Main
+  ```
 
 ---
 
@@ -92,7 +98,7 @@ java Main
 
 ## 🛠️ Tecnologias Utilizadas
 
-- Java 8+
+- Java 23
 - Paradigma de Programação Orientada a Objetos (POO)
 - Estruturas de dados personalizadas
 - Serialização de objetos Java
@@ -107,4 +113,4 @@ Distribuído sob a licença MIT.
 
 ---
 
-Feito com 💡 por [Seu Nome](https://github.com/seu-usuario)
+Feito com 💡 por [João Lucas e João Thiago](https://github.com/seu-usuario)
